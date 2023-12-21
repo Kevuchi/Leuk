@@ -1,14 +1,18 @@
+body {
+    margin: 0;
+}
+
 .product-list {
     display: flex;
     flex-direction: column;
-
+    justify-content: space-around;
     max-width: 600px;
 }
 
 .sideImage {
     display: flex;
     flex-direction: row-reverse;
-    height: 100%;
+    width: 200px;
     padding: 5px;
 }
 
@@ -24,11 +28,45 @@
 }
 
 .product-list>.product>.image {
-
     height: 180px;
     width: 180px;
-    padding: 5px;
+    border: solid 3px lightgray;
+    position: relative;
+    overflow: hidden;
 }
+
+/* .box {
+    max-width:500px;
+    height:200px;
+    margin:50px auto 0;
+    background:lightblue;
+    position:relative;
+    overflow: hidden;
+  } */
+  
+  .ribbon {
+    position: absolute;
+    background: rgb(148, 42, 36);
+    color: white;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-size: 10px;
+    box-shadow: 0 0 0 999px rgb(148, 42, 36);
+    clip-path: inset(0 -100%);
+  }
+
+  .ribbon.left {
+    inset: 0 auto auto 0;
+    transform-origin: 100% 0;
+    padding: 4px;
+    transform: translateX(-34.3%) translateY(6.7%) rotate(-45deg);
+  }
+
+  .ribbon.right {
+    inset: 0 0 auto auto;
+    transform-origin: 0 0;
+    transform: translate(29.3%) rotate(45deg);
+  }
 
 .product-list>.product>.image>img {
     width: 100%;
@@ -50,8 +88,9 @@
     color: rgb(59, 59, 59);
 }
 
-.row {
+.product-page {
     display: flex;
+    justify-content: space-around;
 }
 
 .product-list>.product>.info>.details>.title {
@@ -81,8 +120,13 @@
 .headerDiv {
     display: flex;
     flex-direction: column;
-    padding: 80px 30px;
+    padding: 50px 30px;
     border-bottom: solid black 3px;
+    margin-bottom: 20px;
+    text-align: right;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-transform: uppercase;
 }
 
 
@@ -95,14 +139,8 @@
     padding: 5px;
 }
 
-.containter {
-    width: 200;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    justify-content: center;
-    justify-items: center;
+.container {
+    width: 1000px;
 }
 
 .containter.row {
