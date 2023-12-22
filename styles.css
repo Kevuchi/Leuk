@@ -16,6 +16,13 @@ body {
     padding: 5px;
 }
 
+.sideImageReverse {
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    padding: 5px;
+}
+
 .sideImage>img {
     width: 150px;
     margin-left: 50px;
@@ -43,8 +50,8 @@ body {
     position:relative;
     overflow: hidden;
   } */
-  
-  .ribbon {
+
+.ribbon {
     position: absolute;
     background: rgb(148, 42, 36);
     color: white;
@@ -53,20 +60,20 @@ body {
     font-size: 10px;
     box-shadow: 0 0 0 999px rgb(148, 42, 36);
     clip-path: inset(0 -100%);
-  }
+}
 
-  .ribbon.left {
+.ribbon.left {
     inset: 0 auto auto 0;
     transform-origin: 100% 0;
     padding: 4px;
     transform: translateX(-34.3%) translateY(6.7%) rotate(-45deg);
-  }
+}
 
-  .ribbon.right {
+.ribbon.right {
     inset: 0 0 auto auto;
     transform-origin: 0 0;
     transform: translate(29.3%) rotate(45deg);
-  }
+}
 
 .product-list>.product>.image>img {
     width: 100%;
@@ -77,6 +84,7 @@ body {
     background-color: rgb(235, 235, 235);
     height: 75%;
     width: 100%;
+    margin-left: 10px;
 }
 
 .product-list>.product>.info>.details>.caracteristicas {
@@ -90,6 +98,12 @@ body {
 
 .product-page {
     display: flex;
+    justify-content: space-around;
+}
+
+.product-pageReverse {
+    display: flex;
+    flex-direction: row-reverse;
     justify-content: space-around;
 }
 
@@ -115,6 +129,10 @@ body {
     color: grey;
     background-color: lightgrey;
     align-content: center;
+}
+
+.footerDiv.pageNum {
+    align-content: flex-end;
 }
 
 .headerDiv {
@@ -146,4 +164,8 @@ body {
 .containter.row {
     align-self: stretch;
     justify-items: center;
+}
+
+.containerInvert {
+    width: 1000px;
 }
