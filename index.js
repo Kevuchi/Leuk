@@ -29,6 +29,7 @@ async function readCatalogue() {
 
     //return data
 
+    const list = document.querySelector('.product-list')
 
     for (let i = 1; i < data.length; i++) {
 
@@ -79,19 +80,23 @@ async function readCatalogue() {
         let detailCount = 0
         for (let j = 2; j < data[i].length; j++) {
             if (detailCount == 6) break;
-            if (!data[i][j] || data[i][j] === '' || data[i][j] === ' ') continue;
+            if (!data[i][j] || data[i][j] === '' || data[i][j] === ' ' || data[i][j] === '-') continue;
             const detail = document.createElement('li')
             detail.innerHTML = data[i][j]
             detailsList.appendChild(detail)
             detailCount++;
 
         }
-        details.innerHTML += `${title}`
-        details.innerHTML += `${detailsList.innerHTML}`
-        info.innerHTML = `${details.innerHTML}`
+        details.append(title)
+        details.append(detailsList)
+        //details.innerHTML += `${title}`
+        //details.innerHTML += `${detailsList.innerHTML}`
+        info.append(details)
+        //info.innerHTML = `${details.innerHTML}`
         product.className = 'product'
         product.innerHTML += `${divImage.innerHTML}`
-        product.innerHTML += `${info.innerHTML}`
+        //product.innerHTML += `${info.innerHTML}`
+        product.append(info)
         console.log('products inside', product)
         // product.innerHTML = `<div class="image">
         //                             <div class="ribbon left">nuevo</div>
