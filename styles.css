@@ -5,7 +5,7 @@ body {
 .product-list {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     max-width: 600px;
 }
 
@@ -19,12 +19,12 @@ body {
 .sideImageReverse {
     display: flex;
     flex-direction: row;
-    width: 200px;
+    width: 250px;
     padding: 5px;
 }
 
 .sideImage>img {
-    width: 150px;
+    width: 250px;
     margin-left: 50px;
 
 }
@@ -32,6 +32,7 @@ body {
 .product-list>.product {
     width: 100%;
     display: flex;
+    padding: 1%;
 }
 
 .product-list>.product>.image {
@@ -107,6 +108,23 @@ body {
     justify-content: space-around;
 }
 
+/* .title {
+    padding-left: 50px;
+    flex: 75%;
+    background-color: black;
+    color: white;
+    margin-top: 35px;
+    height: 45px;
+    width: 85%;
+    
+    font-size: 20px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    border-bottom-right-radius: 60px;
+} */
+
 .product-list>.product>.info>.details>.title {
     padding-left: 50px;
     flex: 75%;
@@ -117,7 +135,8 @@ body {
     width: 85%;
     /*400px*/
     font-size: 20px;
-    font-family: sans-serif;
+    font-family: 'Simplifica regular', Arial, sans-serif;
+    /* font-family: simplifica-regular; */
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -125,25 +144,33 @@ body {
 }
 
 .footerDiv {
+    display: flex;
+    flex-direction: row;
     padding: 1%;
     color: grey;
     background-color: lightgrey;
     align-content: center;
+    justify-content: center;
 }
 
 .footerDiv.pageNum {
-    align-content: flex-end;
+    padding: 10%;
+    font-family: sans-serif;
+    align-items: flex-start;
+    justify-content: space-around;
+    color: white;
+    background-color: rgba(73, 72, 72, 0.377);
 }
 
 .headerDiv {
     display: flex;
     flex-direction: column;
     padding: 50px 30px;
-    border-bottom: solid black 3px;
+    border-bottom: solid rgb(71, 71, 71) 3px;
     margin-bottom: 20px;
     text-align: right;
     font-weight: 200;
-    font-family: sans-serif;
+    font-family: 'DIN Next LT Pro Light Condensed';
     text-transform: uppercase;
 }
 
@@ -155,10 +182,13 @@ body {
     height: 150px;
     width: 150px;
     padding: 5px;
+
+
 }
 
 .container {
     width: 1000px;
+
 }
 
 .containter.row {
@@ -169,3 +199,24 @@ body {
 .containerInvert {
     width: 1000px;
 }
+
+@font-face {
+    font-family: "DIN Next LT Pro Light Condensed";
+    src: url('./Fonts/DIN Family Font/DINNextLTPro-Black.eot');
+    src: url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.eot'),
+        url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.ttf')
+}
+
+/* @page {
+    size: A4;
+    margin: 0;
+} */
+
+/* @media print {
+
+    html,
+    body {
+        width: 210mm;
+        height: 297mm;
+    }
+} */

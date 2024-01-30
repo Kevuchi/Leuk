@@ -28,11 +28,13 @@ function appendProductCard(productList, productData) {
     // console.log(productData)
     const productCardTemplate = document.querySelector('#productTemplate');
     const productCard = productCardTemplate.content.cloneNode(true);
-    productCard.querySelector('.title').innerHTML = `<br> ${productData[0]}`;
+    const titleDiv = productCard.querySelector('.title');
+    titleDiv.innerHTML = `<br> ${productData[0]}`;
+
     const detailsList = productCard.querySelector('.caracteristicas');
     const imagePath = productData[1];
     const imageDiv = productCard.querySelector('.image');
-    if (productData[14] === 'SI') {
+    if (productData[14] == 'SI') {
         const ribbon = document.createElement('div');
         ribbon.classList.add('ribbon', 'left');
         ribbon.textContent = 'nuevo';
@@ -50,48 +52,58 @@ function appendProductCard(productList, productData) {
         detailCount++;
     }
     productList.appendChild(productCard);
-}
+};
+
 async function readCatalogue() {
     const resp = await fetch(FILEPATH)
     const text = await resp.text()
     const rows = await Papa.parse(text)
     const data = rows.data
-    // console.log('data!!', data)
 
     for (let i = 1; i < data.length; i++) {
-
         if (!data[i][0] || data[i][0] == '' || data[i][0] == ' ') continue
 
         if (i % 5 == 0 || i == 1) {
-            // currentPage++; sumar al final así pongo 
 
             if (currentPage % 2 !== 0) {
-                // const oddTemplate = document.querySelector('#odd')
-                // const oddTemplateClone = oddTemplate.content.cloneNode(true)
-                // document.body.appendChild(oddTemplateClone)
+                let productCount = 0
                 const evenTemplate = document.querySelector('.even').content.cloneNode(true);
                 const list = evenTemplate.querySelector('.product-list');
                 const footerPageNum = evenTemplate.querySelector('.pageNum')
                 footerPageNum.innerHTML = currentPage;
-                console.log(data[i])
-                appendProductCard(list, data[i])
-                document.body.appendChild(evenTemplate)
+                //console.log(data[i])
+                for (let i = 1; i < data.length; i++) {
+                    if (productCount == 5) break
 
-            } else {
+                    appendProductCard(list, data[i])
+                    productCount++
+                }
+                document.body.appendChild(evenTemplate)
+                currentPage++
+
+            } else if (currentPage % 2 == 0) {
+                let productCount = 0
                 const tryTemplate = document.querySelector('#templatePrueba').content.cloneNode(true);
                 const list = tryTemplate.querySelector('.product-list');
                 const footerPageNum = tryTemplate.querySelector('.pageNum')
                 footerPageNum.innerHTML = currentPage;
-                console.log(data[i])
-                appendProductCard(list, data[i])
+                for (let i = 1; i < data.length; i++) {
+                    if (productCount == 5) break
+                    appendProductCard(list, data[i])
+                    productCount++
+                }
+                currentPage++
                 document.body.appendChild(tryTemplate)
             }
 
 
         }
-        appendProductCard(document.querySelector('.product-list'), data[i])
+        // appendProductCard(document.querySelector('.product-list'), data[i])
 
     }
 }
+// document.addEventListener('DOMContentLoaded', function () {
+//     readCatalogue()
+// })
 readCatalogue()
 
