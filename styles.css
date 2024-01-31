@@ -98,11 +98,13 @@ body {
 }
 
 .product-page {
+
     display: flex;
     justify-content: space-around;
 }
 
 .product-pageReverse {
+
     display: flex;
     flex-direction: row-reverse;
     justify-content: space-around;
@@ -150,16 +152,27 @@ body {
     color: grey;
     background-color: lightgrey;
     align-content: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
-.footerDiv.pageNum {
-    padding: 10%;
+.footerDiv .contactInfo {
+    display: flex;
+    flex: 1;
+    /* Grow to fill available space */
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    /* Center the text */
+}
+
+.footerDiv>.pageNum {
+    padding: 10px;
     font-family: sans-serif;
-    align-items: flex-start;
-    justify-content: space-around;
+    align-content: center;
     color: white;
     background-color: rgba(73, 72, 72, 0.377);
+    display: flex;
+    align-items: center;
 }
 
 .headerDiv {
@@ -176,19 +189,16 @@ body {
 
 
 .headerDiv>.headerLogoImage {
-
     display: flex;
     flex-direction: column;
     height: 150px;
     width: 150px;
     padding: 5px;
-
-
 }
 
 .container {
     width: 1000px;
-
+    padding: 10px;
 }
 
 .containter.row {

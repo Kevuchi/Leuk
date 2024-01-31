@@ -70,7 +70,7 @@ async function readCatalogue() {
                 const evenTemplate = document.querySelector('.even').content.cloneNode(true);
                 const list = evenTemplate.querySelector('.product-list');
                 const footerPageNum = evenTemplate.querySelector('.pageNum')
-                footerPageNum.innerHTML = currentPage;
+                footerPageNum.innerHTML = `0${currentPage}`;
                 //console.log(data[i])
                 for (let i = 1; i < data.length; i++) {
                     if (productCount == 5) break
@@ -86,7 +86,7 @@ async function readCatalogue() {
                 const tryTemplate = document.querySelector('#templatePrueba').content.cloneNode(true);
                 const list = tryTemplate.querySelector('.product-list');
                 const footerPageNum = tryTemplate.querySelector('.pageNum')
-                footerPageNum.innerHTML = currentPage;
+                footerPageNum.innerHTML = `0${currentPage}`;
                 for (let i = 1; i < data.length; i++) {
                     if (productCount == 5) break
                     appendProductCard(list, data[i])
