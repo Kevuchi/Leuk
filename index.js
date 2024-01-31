@@ -24,9 +24,14 @@ let catalogueData = []
 //         }
 //     }
 // }
-function appendProductCard(productList, productData) {
-    // console.log(productData)
-    const productCardTemplate = document.querySelector('#productTemplate');
+function appendProductCard(productList, productData, reversed) {
+    let productCardTemplate
+    if (reversed) {
+        productCardTemplate = document.querySelector('#productReverse');
+    } else {
+
+        productCardTemplate = document.querySelector('#productTemplate');
+    }
     const productCard = productCardTemplate.content.cloneNode(true);
     const titleDiv = productCard.querySelector('.title');
     titleDiv.innerHTML = `<br> ${productData[0]}`;
@@ -75,7 +80,7 @@ async function readCatalogue() {
                 for (let i = 1; i < data.length; i++) {
                     if (productCount == 5) break
 
-                    appendProductCard(list, data[i])
+                    appendProductCard(list, data[i], false)
                     productCount++
                 }
                 document.body.appendChild(evenTemplate)
@@ -89,21 +94,15 @@ async function readCatalogue() {
                 footerPageNum.innerHTML = `0${currentPage}`;
                 for (let i = 1; i < data.length; i++) {
                     if (productCount == 5) break
-                    appendProductCard(list, data[i])
+                    appendProductCard(list, data[i], true)
                     productCount++
                 }
                 currentPage++
                 document.body.appendChild(tryTemplate)
             }
-
-
         }
-        // appendProductCard(document.querySelector('.product-list'), data[i])
-
     }
 }
-// document.addEventListener('DOMContentLoaded', function () {
-//     readCatalogue()
-// })
-readCatalogue()
+
+readCatalogue();
 

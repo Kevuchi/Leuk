@@ -82,14 +82,17 @@ body {
 }
 
 .product-list>.product>.info>.details {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 243, 243);
     height: 75%;
-    width: 100%;
+    width: 340px;
     margin-left: 10px;
 }
 
 .product-list>.product>.info>.details>.caracteristicas {
-    font: caption;
+    /* font: 'caption'; */
+    font-family: 'Simplifica regular', sans-serif;
+    margin-left: 30px;
+    font-weight: 20px;
     columns: 2;
     -webkit-columns: 2;
     -moz-columns: 2;
@@ -137,7 +140,7 @@ body {
     width: 85%;
     /*400px*/
     font-size: 20px;
-    font-family: 'Simplifica regular', Arial, sans-serif;
+    font-family: 'Simplifica regular', sans-serif;
     /* font-family: simplifica-regular; */
     text-transform: uppercase;
     display: flex;
@@ -158,16 +161,15 @@ body {
 .footerDiv .contactInfo {
     display: flex;
     flex: 1;
-    /* Grow to fill available space */
+    font-family: 'Simplifica regular', sans-serif;
     justify-content: center;
     align-items: center;
-    /* text-align: center; */
-    /* Center the text */
+
 }
 
 .footerDiv>.pageNum {
     padding: 10px;
-    font-family: sans-serif;
+    font-family: 'Simplifica regular', sans-serif;
     align-content: center;
     color: white;
     background-color: rgba(73, 72, 72, 0.377);
@@ -183,7 +185,7 @@ body {
     margin-bottom: 20px;
     text-align: right;
     font-weight: 200;
-    font-family: 'DIN Next LT Pro Light Condensed';
+    font-family: 'DIN Next LT Pro Light Condensed', sans-serif;
     text-transform: uppercase;
 }
 
@@ -212,9 +214,14 @@ body {
 
 @font-face {
     font-family: "DIN Next LT Pro Light Condensed";
-    src: url('./Fonts/DIN Family Font/DINNextLTPro-Black.eot');
-    src: url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.eot'),
-        url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.ttf')
+    src: url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.ttf')format('ttf')
+        /* src: url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.eot') format('eot'),
+        url('./Fonts/DIN Family Font/DINNextLTPro-LightCondensed.ttf')format('ttf') */
+}
+
+@font-face {
+    font-family: "Simplifica regular";
+    src: url('./Fonts/SIMPLIFICA Font/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf') format('ttf')
 }
 
 /* @page {
