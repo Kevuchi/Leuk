@@ -1,7 +1,7 @@
 let even = document.createElement('div')
 let currentPage = 1
 let odd = document.createElement('div')
-const FILEPATH = '/catalogo1.csv'
+const FILEPATH = './catalogo1.csv'
 let catalogueData = []
 
 
