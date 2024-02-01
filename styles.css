@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
 }
 
 .product-list {
@@ -136,22 +137,26 @@ body {
     background-color: black;
     color: white;
     margin-top: 35px;
-    height: 45px;
+    height: 43px;
     width: 85%;
     /*400px*/
     font-size: 20px;
     font-family: 'Simplifica regular', sans-serif;
-    /* font-family: simplifica-regular; */
     text-transform: uppercase;
     display: flex;
     justify-content: center;
     border-bottom-right-radius: 60px;
 }
 
+.caracteristicas {
+    list-style-type: disc;
+    line-height: 1;
+    font-size: 10px;
+}
+
 .footerDiv {
     display: flex;
     flex-direction: row;
-    padding: 1%;
     color: grey;
     background-color: lightgrey;
     align-content: center;
@@ -159,9 +164,11 @@ body {
 }
 
 .footerDiv .contactInfo {
+    color: black;
     display: flex;
     flex: 1;
     font-family: 'Simplifica regular', sans-serif;
+    font-weight: lighter;
     justify-content: center;
     align-items: center;
 
@@ -170,6 +177,7 @@ body {
 .footerDiv>.pageNum {
     padding: 10px;
     font-family: 'Simplifica regular', sans-serif;
+    font-size: large;
     align-content: center;
     color: white;
     background-color: rgba(73, 72, 72, 0.377);
@@ -184,8 +192,8 @@ body {
     border-bottom: solid rgb(71, 71, 71) 3px;
     margin-bottom: 20px;
     text-align: right;
-    font-weight: 200;
-    font-family: 'DIN Next LT Pro Light Condensed', sans-serif;
+    font-family: "DIN Next LT Pro Light Condensed", sans-serif;
+    font-size: x-large;
     text-transform: uppercase;
 }
 
@@ -200,7 +208,30 @@ body {
 
 .container {
     width: 1000px;
+
     padding: 10px;
+    page-break-after: always;
+    box-sizing: border-box;
+}
+
+@media print {
+    .container {
+        width: 210mm;
+        height: 297mm;
+        padding: 20mm;
+        page-break-after: always;
+        box-sizing: border-box;
+    }
+
+    .containerInvert {
+        width: 210mm;
+        height: 297mm;
+
+        padding: 20mm;
+        page-break-after: always;
+        box-sizing: border-box;
+    }
+
 }
 
 .containter.row {
@@ -210,6 +241,7 @@ body {
 
 .containerInvert {
     width: 1000px;
+    page-break-after: always;
 }
 
 @font-face {
@@ -220,20 +252,11 @@ body {
 }
 
 @font-face {
-    font-family: "Simplifica regular";
-    src: url('./Fonts/SIMPLIFICA Font/SIMPLIFICA/SIMPLIFICA\ Typeface.ttf') format('ttf')
+    font-family: "DIN Next LT Pro Condensed";
+    src: url('./Fonts/DIN Family Font/DINNextLTPro-Condensed.ttf')format('ttf')
 }
 
-/* @page {
-    size: A4;
-    margin: 0;
-} */
-
-/* @media print {
-
-    html,
-    body {
-        width: 210mm;
-        height: 297mm;
-    }
-} */
+@font-face {
+    font-family: "Simplifica regular";
+    src: url('./Fonts/SIMPLIFICA Font/SIMPLIFICA/SIMPLIFICA Typeface.ttf') format('ttf')
+}

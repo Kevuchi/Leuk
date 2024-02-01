@@ -49,7 +49,7 @@ function appendProductCard(productList, productData, reversed) {
     image.src = imagePath
     let detailCount = 0;
     for (let i = 2; i < productData.length; i++) {
-        if (detailCount === 6) break;
+        if (detailCount === 8) break;
         if (productData[i] === '' || !productData[i] || productData[i] === ' ' || productData[i] === '-') continue;
         const detail = document.createElement('li');
         detail.innerText = productData[i];
