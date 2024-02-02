@@ -132,7 +132,7 @@ body {
 } */
 
 .product-list>.product>.info>.details>.title {
-    padding-left: 50px;
+    padding-left: 30px;
     flex: 75%;
     background-color: black;
     color: white;
@@ -142,6 +142,7 @@ body {
     /*400px*/
     font-size: 20px;
     font-family: 'Simplifica regular', sans-serif;
+    font-weight: lighter;
     text-transform: uppercase;
     display: flex;
     justify-content: center;
@@ -168,6 +169,7 @@ body {
     display: flex;
     flex: 1;
     font-family: 'Simplifica regular', sans-serif;
+    font-size: small;
     font-weight: lighter;
     justify-content: center;
     align-items: center;
@@ -177,7 +179,7 @@ body {
 .footerDiv>.pageNum {
     padding: 10px;
     font-family: 'Simplifica regular', sans-serif;
-    font-size: large;
+    font-size: x-large;
     align-content: center;
     color: white;
     background-color: rgba(73, 72, 72, 0.377);
@@ -193,6 +195,7 @@ body {
     margin-bottom: 20px;
     text-align: right;
     font-family: "DIN Next LT Pro Light Condensed", sans-serif;
+    font-weight: normal;
     font-size: x-large;
     text-transform: uppercase;
 }
@@ -208,28 +211,41 @@ body {
 
 .container {
     width: 1000px;
-
     padding: 10px;
     page-break-after: always;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 @media print {
     .container {
-        width: 210mm;
-        height: 297mm;
-        padding: 20mm;
-        page-break-after: always;
+        width: 67vh;
+        /* height: 297mm; */
+        height: 100vh;
+        padding: 0;
         box-sizing: border-box;
+        page-break-after: always;
+        display: block;
     }
 
     .containerInvert {
-        width: 210mm;
-        height: 297mm;
-
-        padding: 20mm;
-        page-break-after: always;
+        width: 250mm;
+        height: 100vh;
+        padding: 0;
         box-sizing: border-box;
+        page-break-after: always;
+        display: block;
+    }
+
+    body {
+        margin: 0;
+    }
+
+    footer {
+        /* position: fixed; */
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px;
     }
 
 }
@@ -242,6 +258,7 @@ body {
 .containerInvert {
     width: 1000px;
     page-break-after: always;
+    box-sizing: border-box;
 }
 
 @font-face {
