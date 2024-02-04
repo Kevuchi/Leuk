@@ -1,4 +1,4 @@
-PRODUCTO;FOTO;CATEGORÍA;MATERIAL;ROSCA/LUZ;POTENCIA;TEMPERATURA;COLOR;ALTO;ANCHO;LARGO;PROFUNDIDAD;DIÁMETRO;ADICIONAL;NUEVO;NACIONAL;PRECIO
+Producto;Foto;Categoría;Material;Rosca/Luz;Potencia;Temperatura;Color;Alto;Ancho;Largo;Profundidad;Diámetro;Adicional;Nuevo;Nacional;Precio
 PLEVRES;.\Images\anton3negro.png;Exterior;Aluminio - Vidrio IP44;Led integrado;2x3w;3000k;Negro;100 mm;100 mm;;100 mm;;Paletas regulables;NO;NO;1
 PINAKA;.\Images\anton3negro.png;Velador;Hierro, aluminio y vidrio;Led integrado;10w;3000k;Dorado y vidrio;440 mm;-;-;-;230 mm;-;NO;NO;1
 HANGI BLANCO;.\Images\anton2negro.png;Velador;Acero y cuero;E27;-;-;Blanco;300 mm;170 mm;214 mm;-;-;-;SI;SI;1
