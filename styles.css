@@ -217,23 +217,27 @@ body {
 }
 
 @media print {
+    @page {
+        size: A4;
+        margin: 0;
+    }
+
     .container {
-        width: 67vh;
-        /* height: 297mm; */
-        height: 100vh;
+        display: block;
         padding: 0;
-        box-sizing: border-box;
         page-break-after: always;
         display: block;
     }
 
     .containerInvert {
-        width: 250mm;
-        height: 100vh;
+        display: block;
         padding: 0;
-        box-sizing: border-box;
         page-break-after: always;
         display: block;
+    }
+
+    section {
+        height: 100vhs;
     }
 
     body {
@@ -241,14 +245,15 @@ body {
     }
 
     footer {
-        /* position: fixed; */
         bottom: 0;
         left: 0;
         width: 100%;
-        padding: 10px;
+        /* padding: 10px; */
     }
 
 }
+
+;
 
 .containter.row {
     align-self: stretch;
