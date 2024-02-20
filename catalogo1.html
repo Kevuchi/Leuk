@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Productos Leuk</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="icon" href="./Images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <script type="text/javascript" src="https://unpkg.com/papaparse@5.4.1/papaparse.min.js"></script>
+    <script type="text/javascript" src=".\catalogo1.js" async></script>
+
+    <!-- <section class="container">
+        <header>
+            <div class="headerDiv">
+                <div class="headerLogoImage">
+                    <img src=".\Images\logomenu-1.png" alt="">
+
+                </div>
+                <h1>Lista de Productos</h1>
+
+            </div>
+        </header>
+        <div class="product-page">
+            <div class="sideImage"><img src=".\Images\sideImage.png">
+            </div>
+            <div class="product-list">
+                <div class="product">
+                    <div class="image">
+                        <div class="ribbon left">nuevo</div>
+                        <img src=".\Images\pruebalalala.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 1 Negro
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Negro</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br> <br> <br>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\pruebalolol.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 1 Blanco
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Blanco</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\anton2negro.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 2 Negro
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Negro</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\anton2blanco.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 2 Blanco
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Blanco</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\anton3negro.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 3 Negro
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Blanco</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br> <br>
+        <footer>
+            <div class="footerDiv">Juan B. Justo 3330 – CABA, Argentina. Tel.: (011) 5263-5000 - Whatsapp: (011)
+                11-5472-9926 / (011)
+                6868-0041
+                <div class="pageNum">01</div>
+            </div>
+        </footer>
+    </section> -->
+    <!-- <section class="containerInvert">
+        <header>
+            <div class="headerDiv">
+                <div class="headerLogoImage">
+                    <img src=".\Images\logomenu-1.png" alt="">
+
+                </div>
+               
+            </div>
+        </header>
+        <div class="product-pageReverse">
+            <div class="sideImageReverse"><img src=".\Images\sideImage.png">
+            </div>
+            <div class="product-list">
+                <div class="product">
+                    <div class="image">
+                        <div class="ribbon left">nuevo</div>
+                        <img src=".\Images\pruebalalala.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 1 Negro
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Negro</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <br> <br> <br>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\pruebalolol.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 1 Blanco
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Blanco</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\anton2negro.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 2 Negro
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Negro</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\anton2blanco.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 2 Blanco
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Blanco</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="product">
+                    <div class="image">
+                        <img src=".\Images\anton3negro.png" alt="">
+                    </div>
+                    <div class="info">
+                        <div class="details">
+                            <div class="title">
+                                <br> Anton 3 Negro
+                            </div>
+
+                            <ul class="caracteristicas">
+                                <li> Aplique</li>
+                                <li> Material: Aluminio y acero</li>
+                                <li> Dicroica x 4</li>
+                                <li> Color: Blanco</li>
+
+                                <li> Largo: 165 mm</li>
+                                <li> Ancho: 165 mm</li>
+                                <li> Profundidad: 86 mm</li>
+                                <li> Con movimiento cardánico</li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br> <br> <br>
+        <footer>
+            <div class="footerDiv">Juan B. Justo 3330 – CABA, Argentina. Tel.: (011) 5263-5000 - Whatsapp: (011)
+                11-5472-9926 / (011)
+                6868-0041
+                <div class="pageNum">02</div>
+            </div>
+        </footer>
+    </section> -->
+    <template id="odd">
+        <section class="containerInvert">
+
+            <div class="product-pageReverse">
+                <div class="sideImageReverse"><img src=".\Images\sideImageReversed.png">
+                </div>
+                <div class="product-list">
+
+                    <!-- <br> <br> <br> -->
+
+
+
+                </div>
+            </div>
+            <!-- <br> <br> <br> -->
+
+        </section>
+
+    </template>
+    <template class="even">
+        <section class="container">
+            <header>
+                <div class="headerTitle">Lista de Productos</div>
+                <!-- <br> -->
+
+            </header>
+            <!-- <br><br> -->
+            <div class="product-page">
+                <div class="sideImage"><img src=".\Images\sideImage.png">
+                </div>
+                <div class="product-list">
+
+                    <!-- <br> <br> <br> -->
+
+
+
+
+                </div>
+            </div>
+            <!-- <br> <br> <br> -->
+            <footer>
+                <div class="contactInfo"> Av. Juan B. Justo 3330 – CABA, Argentina. Tel.: (011) 5263-5000 -
+                    Whatsapp: (011)
+                    11-5472-9926 / (011)
+                    6868-0041</div>
+                <div class="pageNum">01</div>
+            </footer>
+        </section>
+    </template>
+    <template id="productTemplate">
+        <div class="product">
+            <div class="image">
+                <!-- <div class="ribbon left">nuevo</div> -->
+                <img src=".\Images\pruebalalala.png" alt="">
+            </div>
+            <div class="info">
+                <div class="details">
+                    <div class="title">
+                        <br>
+                    </div>
+                    <ul class="caracteristicas"></ul>
+                </div>
+            </div>
+        </div>
+    </template>
+    <template id="productReverse">
+        <div class="product">
+
+            <div class="info">
+                <div class="details">
+                    <div class="title">
+                        <br>
+                    </div>
+
+                    <ul class="caracteristicas"></ul>
+                </div>
+            </div>
+            <div class="image">
+                <!-- <div class="ribbon left">nuevo</div> -->
+                <img src=".\Images\pruebalalala.png" alt="">
+            </div>
+        </div>
+    </template>
+    <template id="templatePrueba">
+        <section class="containerInvert">
+            <header>
+                <div class="headerLogoImage">
+                    <!-- <br><br><br> -->
+                    <img src=".\Images\logomenu-1.png" alt="">
+
+                </div>
+                <div class="headerDiv">
+                </div>
+            </header>
+            <!-- <br><br> -->
+            <div class="product-pageReverse">
+                <div class="sideImageReverse"><img src=".\Images\sideImageReversed.png">
+                </div>
+                <div class="product-list"></div>
+            </div>
+            <!-- <br> <br> <br> -->
+            <!-- <br> -->
+            <footer>
+                <div class="pageNum">02</div>
+                <div class="contactInfo">Av. Juan B. Justo 3330 – CABA, Argentina. Tel.: (011) 5263-5000 - Whatsapp:
+                    (011)
+                    11-5472-9926 / (011)
+                    6868-0041</div>
+            </footer>
+        </section>
+    </template>
+</body>
+
+</html>

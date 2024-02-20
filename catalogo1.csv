@@ -1,30 +1,30 @@
-Producto;Foto;CategorÌa;Material;Rosca/Luz;Potencia;Temperatura;Color;Alto;Ancho;Largo;Profundidad;Di·metro;Adicional;Nuevo;Nacional;Precio
-PLEVRES;.\Images\anton3negro.png;Exterior;Aluminio - Vidrio IP44;Led integrado;2x3w;3000k;Negro;100 mm;100 mm;;100 mm;;Paletas regulables;NO;NO;1
-PINAKA;.\Images\anton3negro.png;Velador;Hierro, aluminio y vidrio;Led integrado;10w;3000k;Dorado y vidrio;440 mm;-;-;-;230 mm;-;NO;NO;1
-HANGI BLANCO;.\Images\anton2negro.png;Velador;Acero y cuero;E27;-;-;Blanco;300 mm;170 mm;214 mm;-;-;-;SI;SI;1
-INDO;.\Images\anton3negro.png;L·mpara de pie;Bamb˙;E27;-;-;Natural;1570 mm;-;-;-;390 mm;-;SI;NO;1
-YASAS NEGRO;.\Images\anton2blanco.png;Colgante;Metal;Led integrado;48w;3000k;Negro;100 mm;-;-;-;600 mm;-;NO;NO;1
-BACO;.\Images\anton3negro.png;Colgante;Bamb˙;E27;-;-;Natural;400 mm;380 mm;-;-;-;-;NO;NO;1
-SEB 1 NEGRO;.\Images\anton3negro.png;Spot de embutir;Policarbonato;Dicroica;-;-;Negro;53 mm;-;-;-;93 mm;Fijo;NO;NO;1
-MILA 3 BLANCO;.\Images\anton3negro.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-RIEL 1 METRO 1 EF;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-MILA 3 BLANCO;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-FAKE PRODUCT;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-LIGHT 1;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-LAMP;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-LUMINAIRE;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-AAA;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-BBB;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-CCC;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-DDD;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-EEE;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-FFF;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-GGG;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-FFF;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-SSS;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-ARTICLE;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-ARTICLE2;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-FAKE BLANCO;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-RIEL FALSO;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;1
-MILA 8 BLANCO;.\Images\mila3blanco.png;Card·nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento card·nico;SI;NO;1
-LAST POSITION;.\Images\anton3negro.png;Velador;Hierro, aluminio y vidrio;Led integrado;10w;3000k;Dorado y vidrio;440 mm;-;-;-;230 mm;-;NO;NO;1
+Producto;Foto;Categor√≠a;Material;Rosca/Luz;Potencia;Temperatura;Color;Alto;Ancho;Largo;Profundidad;Di√°metro;Adicional;Nuevo;Nacional;Precio
+PLEVRES;.\Images\plevres.png;Exterior;Aluminio - Vidrio IP44;Led integrado;2x3w;3000k;Negro;100 mm;100 mm;;100 mm;;Paletas regulables;SI;NO;USD 1
+PINAKA;.\Images\pinaka.png;Velador;Hierro, aluminio y vidrio;Led integrado;10w;3000k;Dorado y vidrio;440 mm;-;-;-;230 mm;-;NO;NO;USD 2
+HANGI BLANCO;.\Images\hangiBlanco.png;Velador;Acero y cuero;E27;-;-;Blanco;300 mm;170 mm;214 mm;-;-;-;SI;SI;USD 3
+INDO;.\Images\indo.png;L√°mpara de pie;Bamb√∫;E27;-;-;Natural;1570 mm;-;-;-;390 mm;-;SI;NO;USD 4
+YASAS NEGRO;.\Images\yasasNegro.png;Colgante;Metal;Led integrado;48w;3000k;Negro;100 mm;-;-;-;600 mm;-;NO;NO;USD 5
+BACO;.\Images\baco.png;Colgante;Bamb√∫;E27;-;-;Natural;400 mm;380 mm;-;-;-;-;NO;NO;USD 6
+SEB 1 NEGRO;.\Images\seb1negro.png;Spot de embutir;Policarbonato;Dicroica;-;-;Negro;53 mm;-;-;-;93 mm;Fijo;NO;NO;USD 7
+MILA 3 BLANCO;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 8
+RIEL 1 METRO 1 EF;.\Images\riel1metroef.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 9
+MILA 3 BLANCO;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 10
+FAKE PRODUCT;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 11
+LIGHT 1;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 12
+LAMP;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 13
+LUMINAIRE;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 14
+AAA;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 15
+BBB;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 16
+CCC;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 17
+DDD;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 18
+EEE;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 19
+FFF;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 20
+GGG;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 21
+FFF;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 22
+SSS;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 23
+ARTICLE;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 24
+ARTICLE2;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 25
+FAKE BLANCO;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 26
+RIEL FALSO;.\Images\anton3negro.png;Riel;Aluminio y cobre;-;-;-;Negro/Blanco;17 mm;34 mm;1000 mm;-;-;-;SI;NO;USD 27
+MILA 8 BLANCO;.\Images\mila3blanco.png;Card√°nico de embutir;Aluminio y acero;AR111 x 3;-;-;Blanco;-;170 mm;440 mm;90 mm;-;Con movimiento Card√°nico;SI;NO;USD 28
+LAST POSITION;.\Images\anton3negro.png;Velador;Hierro, aluminio y vidrio;Led integrado;10w;3000k;Dorado y vidrio;440 mm;-;-;-;230 mm;-;NO;NO;USD 29

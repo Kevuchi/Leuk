@@ -1,0 +1,26 @@
+body {
+    background-color: black;
+    background-image: url('./Images/landing.png');
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    /* background-position: 50%; */
+    background: position y 50px position x 50px;
+
+}
+
+/* body>img {
+    align-self: center;
+} */
+
+header {
+    padding: 15px;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+a {
+    color: black;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px;
+}
