@@ -170,8 +170,7 @@ body {
 footer {
 
     height: 3%;
-
-    width: 100%;
+    width: 106.1%;
     display: flex;
     flex-direction: row;
     color: rgb(158, 158, 158);
@@ -212,7 +211,7 @@ header {
     display: flex;
     flex-direction: row-reverse;
     align-items: baseline;
-    padding: 50px 30px;
+    /* padding: 50px 30px; */
     border-bottom: solid rgb(71, 71, 71) 3px;
     width: 100%;
     /* margin-bottom: 20px; */
@@ -223,6 +222,7 @@ header {
     text-transform: uppercase;
     align-items: end;
     justify-items: center;
+    justify-content: space-evenly;
 }
 
 header>.headerPrice {
@@ -233,7 +233,7 @@ header>.headerPrice {
     height: 100px;
     color: gray;
     background-color: lightgrey;
-    width: 290px;
+    width: 450px;
     align-content: flex-end;
     text-align: center;
     padding-top: 50px;
@@ -259,8 +259,8 @@ header>.headerLogoImage {
     justify-self: flex-end;
     align-self: last baseline;
     /* margin-top: 200px; */
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 
 }
 
@@ -268,8 +268,8 @@ header>.headerLogoImage {
 header>.headerLogoImage>img {
     align-self: flex-start;
     /* margin-top: 200px; */
-    height: 150px;
-    width: 150px;
+    height: 200px;
+    width: 200px;
 
 }
 

@@ -8,11 +8,20 @@ body {
 
 }
 
+@font-face {
+    font-family: "DIN Next LT Pro Condensed";
+    src: url('./Fonts/DIN\ Family\ Font/DINNextLTPro-Condensed.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 /* body>img {
     align-self: center;
 } */
 
 header {
+    font-family: "DIN Next LT Pro Condensed";
     padding: 15px;
     justify-content: space-between;
     justify-items: center;
